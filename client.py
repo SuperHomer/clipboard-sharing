@@ -14,7 +14,6 @@ load_dotenv()
 HOST = os.environ['HOST']
 PORT = int(os.environ['PORT'])
 KEY = os.environ['KEY']
-RANDOM = os.environ['RANDOM']
 PREFIX_SIZE = int(os.environ['PREFIX_SIZE'])
 
 INIT_MESSAGE = os.environ['INIT_MESSAGE']
